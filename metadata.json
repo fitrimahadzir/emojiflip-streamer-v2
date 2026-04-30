@@ -1,0 +1,6 @@
+{
+  "name": "EmojiFlip (Streamer Version)",
+  "description": "A React implementation of the EmojiFlip memory pairing game with mistaking tracking and win/loss states.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

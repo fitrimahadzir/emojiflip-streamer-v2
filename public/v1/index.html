@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EmojiFlip | Memory Game</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="icon" href="asset/favicon.ico">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="app">  
+    <div class="wrapper">
+      
+      <div class="game-logo"></div>
+      
+      <!-- <div class="stats-container">
+        <div id="moves-count"></div>
+        <div id="time"></div>
+        <div id="errors-count"></div>
+      </div> -->
+
+     
+      
+      <div id="total-score" class="total-score">
+        JUMLAH SKOR ⭐: 0
+      </div>
+
+      <div class="stats-bar">
+        <div class="stat moves"> <span id="moves-count"></span></div>
+        <div class="stat time"> <span id="time"></span></div>
+        <div class="stat errors"> <span id="errors-count"></span></div>
+      </div>
+
+      <div class="game-container"></div>
+      <button id="stop" class="hide">Ulang Game</button>
+
+      <!-- <div class="start-footer">
+        Developed By <a href="https://fitrimahadzir.my" target="_blank">Fitri Mahadzir</a>
+      </div> -->
+
+    </div>
+
+    <div id="errorPopup" class="popup">
+        <div class="popup-box">
+        <h2>⚠️ Amaran ⚠️</h2>
+        <p>Anda telah mencapai 10 kesalahan!</p>
+        <button id="popupBtn">OK</button>
+      </div>
+    </div>
+
+    <!-- start screen & result page -->
+<div class="controls-container">
+  <div class="start-card">
+    
+    <a href="https://emojiflip.fitrimahadzir.my" class="logo-link">
+        <img src="asset/logo.png" class="logo" alt="EmojiFlip Logo">
+    </a>
+
+    <p id="result"></p>
+    <button id="start"  class="start-btn">
+      Mula Permainan
+    </button>
+  </div> 
+</div>   
+
+ <!-- GLOBAL FOOTER -->
+  <footer class="page-footer">
+    Developed By <a href="https://fitrimahadzir.my" target="_blank">Fitri Mahadzir</a>
+  </footer>
+</div>
+
+
+
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
