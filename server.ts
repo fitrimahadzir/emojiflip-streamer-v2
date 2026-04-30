@@ -108,7 +108,10 @@ async function startServer() {
   });
 
   // Serve the static v1 game
-  app.use('/v1', express.static(path.join(process.cwd(), 'public', 'v1')));
+  const v1Path = process.env.NODE_ENV === "production" 
+    ? path.join(process.cwd(), 'dist', 'v1') 
+    : path.join(process.cwd(), 'public', 'v1');
+  app.use('/v1', express.static(v1Path));
 
   // Vite middleware for development
   if (process.env.NODE_ENV !== "production") {

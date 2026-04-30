@@ -23,18 +23,18 @@ let timerStarted = false;
 
 //Items array
 const items = [
-  { name: "rama-rama", image: "/v1/asset/emoji-01.png" },
-  { name: "ais", image: "/v1/asset/emoji-02.png" },
-  { name: "api", image: "/v1/asset/emoji-03.png" },
-  { name: "hantu", image: "/v1/asset/emoji-04.png" },
-  { name: "monyet", image: "/v1/asset/emoji-05.png" },
-  { name: "mual", image: "/v1/asset/emoji-06.png" },
-  { name: "pelangi", image: "/v1/asset/emoji-07.png" },
-  { name: "hati", image: "/v1/asset/emoji-08.png" },
-  { name: "love-eye", image: "/v1/asset/emoji-09.png" },
-  { name: "ball", image: "/v1/asset/emoji-10.png" },
-  { name: "zip-mouth", image: "/v1/asset/emoji-11.png" },
-  { name: "star", image: "/v1/asset/emoji-12.png" },
+  { name: "rama-rama", image: "asset/emoji-01.png" },
+  { name: "ais", image: "asset/emoji-02.png" },
+  { name: "api", image: "asset/emoji-03.png" },
+  { name: "hantu", image: "asset/emoji-04.png" },
+  { name: "monyet", image: "asset/emoji-05.png" },
+  { name: "mual", image: "asset/emoji-06.png" },
+  { name: "pelangi", image: "asset/emoji-07.png" },
+  { name: "hati", image: "asset/emoji-08.png" },
+  { name: "love-eye", image: "asset/emoji-09.png" },
+  { name: "ball", image: "asset/emoji-10.png" },
+  { name: "zip-mouth", image: "asset/emoji-11.png" },
+  { name: "star", image: "asset/emoji-12.png" },
 ];
 
 //Initial Time
