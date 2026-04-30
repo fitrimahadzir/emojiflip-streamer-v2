@@ -1,9 +1,7 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false,
   "rewrites": [
-    { "source": "/v1", "destination": "/v1/index.html" },
     { "source": "/v1/(.*)", "destination": "/v1/$1" },
-    { "source": "/((?!v1|api|assets|_next).*)", "destination": "/index.html" }
+    { "source": "/((?!v1|api|assets|_next|favicon.ico).*)", "destination": "/index.html" }
   ]
 }
