@@ -1,7 +1,9 @@
 {
-  "routes": [
-    { "src": "^/v1$", "dest": "/v1/index.html" },
-    { "src": "^/v1/(.*)", "dest": "/v1/$1" },
-    { "src": "/(.*)", "dest": "/index.html" }
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/v1", "destination": "/v1/index.html" },
+    { "source": "/v1/(.*)", "destination": "/v1/$1" },
+    { "source": "/((?!v1|api|assets|_next).*)", "destination": "/index.html" }
   ]
 }
